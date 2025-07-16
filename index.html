@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENJAZ - Privacy Policy</title>
+    <meta name="description" content="Privacy Policy for ENJAZ Task Management App - Your privacy is our priority">
+    <meta name="keywords" content="ENJAZ, privacy policy, task management, mobile app, data protection">
+    <meta name="author" content="ENJAZ Team">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="ENJAZ - Privacy Policy">
+    <meta property="og:description" content="Privacy Policy for ENJAZ Task Management App">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-username.github.io/enjaz-privacy-policy/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="ENJAZ Logo" class="logo-img">
+                    <div class="logo-text">
+                        <h1>ENJAZ</h1>
+                        <span class="logo-subtitle">انجاز</span>
+                    </div>
+                </div>
+                
+                <div class="header-actions">
+                    <button class="language-toggle" onclick="toggleLanguage()">
+                        <span class="material-icons">language</span>
+                        <span id="language-text">العربية</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title" data-en="Privacy Policy" data-ar="سياسة الخصوصية">Privacy Policy</h1>
+                    <p class="hero-subtitle" data-en="Your privacy is our priority. Learn how we protect your data." data-ar="خصوصيتك أولويتنا. تعرف على كيفية حماية بياناتك.">
+                        Your privacy is our priority. Learn how we protect your data.
+                    </p>
+                    <div class="last-updated">
+                        <span class="material-icons">update</span>
+                        <span data-en="Last Updated" data-ar="آخر تحديث">Last Updated</span>: 
+                        <span id="last-updated-date"></span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Privacy Policy Content -->
+            <section class="content">
+                <div class="content-card">
+                    <!-- English Content -->
+                    <div id="content-en" class="content-lang active">
+                        <div class="content-text">
+                            <p>At ENJAZ, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you use our task management application.</p>
+
+                            <h2><span class="material-icons">info</span>1. Information We Collect</h2>
+                            <p>ENJAZ is designed with privacy in mind. We collect minimal information necessary for the app to function:</p>
+                            <ul>
+                                <li><strong>Task data:</strong> Tasks, descriptions, due dates, and completion status that you create</li>
+                                <li><strong>App preferences:</strong> Your language settings, theme preferences, and notification settings</li>
+                                <li><strong>Usage data:</strong> Basic app usage statistics to improve performance (stored locally)</li>
+                            </ul>
+
+                            <h2><span class="material-icons">storage</span>2. How We Store Your Data</h2>
+                            <ul>
+                                <li>All your task data is stored locally on your device using SQLite database</li>
+                                <li>No personal data is transmitted to external servers</li>
+                                <li>Your information remains on your device and under your control</li>
+                                <li>Data is encrypted using industry-standard security measures</li>
+                            </ul>
+
+                            <h2><span class="material-icons">settings</span>3. How We Use Your Information</h2>
+                            <p>We use your information solely to:</p>
+                            <ul>
+                                <li>Provide task management functionality</li>
+                                <li>Send local notifications for your tasks</li>
+                                <li>Maintain your app preferences and settings</li>
+                                <li>Improve app performance and user experience</li>
+                            </ul>
+
+                            <h2><span class="material-icons">share</span>4. Data Sharing</h2>
+                            <p>We do not share, sell, or transfer your personal information to third parties. Your data remains private and secure on your device.</p>
+
+                            <h2><span class="material-icons">notifications</span>5. Notifications</h2>
+                            <ul>
+                                <li>Notifications are generated locally on your device</li>
+                                <li>No notification data is sent to external services</li>
+                                <li>You can control notification settings at any time</li>
+                            </ul>
+
+                            <h2><span class="material-icons">account_circle</span>6. Your Rights</h2>
+                            <p>You have the right to:</p>
+                            <ul>
+                                <li>Access all your data within the app</li>
+                                <li>Modify or delete your tasks and preferences</li>
+                                <li>Export your data (future feature)</li>
+                                <li>Uninstall the app to remove all data</li>
+                            </ul>
+
+                            <h2><span class="material-icons">security</span>7. Data Security</h2>
+                            <p>We implement appropriate security measures to protect your information against unauthorized access, alteration, disclosure, or destruction.</p>
+
+                            <h2><span class="material-icons">child_care</span>8. Children's Privacy</h2>
+                            <p>ENJAZ is suitable for users of all ages. We do not knowingly collect personal information from children under 13 without parental consent.</p>
+
+                            <h2><span class="material-icons">update</span>9. Changes to This Policy</h2>
+                            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy in the app.</p>
+
+                            <h2><span class="material-icons">contact_support</span>10. Contact Us</h2>
+                            <p>If you have any questions about this Privacy Policy, please contact us through the app's feedback feature.</p>
+                        </div>
+                    </div>
+
+                    <!-- Arabic Content -->
+                    <div id="content-ar" class="content-lang">
+                        <div class="content-text">
+                            <p>في تطبيق إنجاز، نحن ملتزمون بحماية خصوصيتك وضمان أمان معلوماتك الشخصية. توضح سياسة الخصوصية هذه كيفية جمعنا واستخدامنا وحماية بياناتك عند استخدام تطبيق إدارة المهام الخاص بنا.</p>
+
+                            <h2><span class="material-icons">info</span>1. المعلومات التي نجمعها</h2>
+                            <p>تم تصميم إنجاز مع مراعاة الخصوصية. نجمع الحد الأدنى من المعلومات اللازمة لعمل التطبيق:</p>
+                            <ul>
+                                <li><strong>بيانات المهام:</strong> المهام والأوصاف وتواريخ الاستحقاق وحالة الإنجاز التي تنشئها</li>
+                                <li><strong>تفضيلات التطبيق:</strong> إعدادات اللغة وتفضيلات المظهر وإعدادات التنبيهات</li>
+                                <li><strong>بيانات الاستخدام:</strong> إحصائيات أساسية لاستخدام التطبيق لتحسين الأداء (مخزنة محلياً)</li>
+                            </ul>
+
+                            <h2><span class="material-icons">storage</span>2. كيفية تخزين بياناتك</h2>
+                            <ul>
+                                <li>جميع بيانات مهامك مخزنة محلياً على جهازك باستخدام قاعدة بيانات SQLite</li>
+                                <li>لا يتم إرسال أي بيانات شخصية إلى خوادم خارجية</li>
+                                <li>معلوماتك تبقى على جهازك وتحت سيطرتك</li>
+                                <li>البيانات مشفرة باستخدام تدابير أمنية معيارية في الصناعة</li>
+                            </ul>
+
+                            <h2><span class="material-icons">settings</span>3. كيفية استخدام معلوماتك</h2>
+                            <p>نستخدم معلوماتك فقط من أجل:</p>
+                            <ul>
+                                <li>توفير وظائف إدارة المهام</li>
+                                <li>إرسال تنبيهات محلية لمهامك</li>
+                                <li>الحفاظ على تفضيلات وإعدادات التطبيق</li>
+                                <li>تحسين أداء التطبيق وتجربة المستخدم</li>
+                            </ul>
+
+                            <h2><span class="material-icons">share</span>4. مشاركة البيانات</h2>
+                            <p>نحن لا نشارك أو نبيع أو ننقل معلوماتك الشخصية إلى أطراف ثالثة. بياناتك تبقى خاصة وآمنة على جهازك.</p>
+
+                            <h2><span class="material-icons">notifications</span>5. التنبيهات</h2>
+                            <ul>
+                                <li>التنبيهات يتم إنشاؤها محلياً على جهازك</li>
+                                <li>لا يتم إرسال بيانات التنبيهات إلى خدمات خارجية</li>
+                                <li>يمكنك التحكم في إعدادات التنبيهات في أي وقت</li>
+                            </ul>
+
+                            <h2><span class="material-icons">account_circle</span>6. حقوقك</h2>
+                            <p>لديك الحق في:</p>
+                            <ul>
+                                <li>الوصول إلى جميع بياناتك داخل التطبيق</li>
+                                <li>تعديل أو حذف مهامك وتفضيلاتك</li>
+                                <li>تصدير بياناتك (ميزة مستقبلية)</li>
+                                <li>إلغاء تثبيت التطبيق لإزالة جميع البيانات</li>
+                            </ul>
+
+                            <h2><span class="material-icons">security</span>7. أمان البيانات</h2>
+                            <p>نطبق تدابير أمنية مناسبة لحماية معلوماتك ضد الوصول غير المصرح به أو التغيير أو الكشف أو التدمير.</p>
+
+                            <h2><span class="material-icons">child_care</span>8. خصوصية الأطفال</h2>
+                            <p>إنجاز مناسب للمستخدمين من جميع الأعمار. نحن لا نجمع عن علم معلومات شخصية من الأطفال دون سن 13 بدون موافقة الوالدين.</p>
+
+                            <h2><span class="material-icons">update</span>9. تغييرات على هذه السياسة</h2>
+                            <p>قد نحدث سياسة الخصوصية هذه من وقت لآخر. سنخطرك بأي تغييرات عن طريق نشر سياسة الخصوصية الجديدة في التطبيق.</p>
+
+                            <h2><span class="material-icons">contact_support</span>10. اتصل بنا</h2>
+                            <p>إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا من خلال ميزة التعليقات في التطبيق.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <span class="material-icons">help_outline</span>
+                    </div>
+                    <h3 data-en="Need Help?" data-ar="تحتاج مساعدة؟">Need Help?</h3>
+                    <p data-en="If you have any questions about this Privacy Policy, you can contact us through the app settings." data-ar="إذا كان لديك أي أسئلة حول سياسة الخصوصية، يمكنك التواصل معنا من خلال إعدادات التطبيق.">
+                        If you have any questions about this Privacy Policy, you can contact us through the app settings.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="ENJAZ Logo" class="footer-logo-img">
+                    <span>ENJAZ - انجاز</span>
+                </div>
+                <div class="footer-text">
+                    <p data-en="Task Management Made Simple" data-ar="إدارة المهام بكل بساطة">Task Management Made Simple</p>
+                    <p>&copy; 2024 ENJAZ Team. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
